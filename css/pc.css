@@ -12,12 +12,17 @@
     color: orangered;
     text-decoration: none;
     background:url("zila.jpg")
+    
+}
 
+html{
+    height: 300%;
 }
 
 body {
 background-color:rgb(15 23 42/var(--tw-bg-opacity));
-
+width: 100%;
+height: 100%;
 }
 
 header {
@@ -138,7 +143,7 @@ cod is body
 
 .for-pc-body {
     width: 100%;
-    height: 100%;
+    height: 90%;
     display: inline-block;
 
 }
@@ -148,7 +153,7 @@ cod is body
     width: 180px;
     height: 290px;
     border-radius: 20px;
-    margin: 10px;
+    margin: 30px;
     margin-right: -10px;
     display: inline-block;
     transition: 0.5s;
@@ -177,3 +182,4 @@ cod is body
     position: absolute;
     top: 20px;
 }
+ 

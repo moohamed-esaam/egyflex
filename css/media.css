@@ -1,0 +1,77 @@
+@media (max-width: 700px) {
+    .for-pc {
+
+        display: none
+    }
+
+
+
+    .for-mobile {
+        display: block;
+
+
+    }
+}
+
+    @media (min-width: 701px) {
+        .for-pc {
+
+            display: block
+        }
+ 
+
+
+        .for-mobile {
+            display: none
+        }
+
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
+@media (max-width: 700px) {
+    .for-pc-body {
+
+        display: none
+    }
+
+
+
+    .for-mobile-body {
+        display: block;
+
+    }
+
+}
+
+@media (min-width: 701px) {
+    .for-pc-body {
+
+        display: block
+    }
+
+
+
+    .for-mobile-body {
+        display: none
+    }
+
+}

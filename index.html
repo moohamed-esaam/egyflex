@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pc.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--
+*****************************************
+code the header for pc
+*****************************************
+-->
+
+    <header class="for-pc">
+
+
+        <h1 class="logo">
+            <i class="fa-solid fa-film"></i>
+            EgFlex
+        </h1>
+
+<div class="sub-di">
+    <a href="" class="link">
+Home
+    </a>
+    <a href="" class="link2">
+Contact
+    </a>
+    <a href="" class="link3">
+About
+    </a>
+</div>
+
+
+
+    </header>
+
+
+    <input class="search" type="text" placeholder="Search..">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--
+*****************************************
+code the dark mode in header
+*****************************************
+-->
+
+    <style>
+        label {
+            position: absolute;
+            width: 45px;
+            height: 22px;
+            right: 65px;
+            top: 20px;
+            border: 2px solid;
+            border-radius: 20px;
+        }
+
+        label:before {
+            position: absolute;
+            content: '';
+            width: 20px;
+            height: 20px;
+            left: 1px;
+            top: 1px;
+            border-radius: 50%;
+            background: #ffffff;
+            cursor: pointer;
+            transition: 0.4s;
+        }
+
+        label.active:before {
+            left: 24px;
+            background: #000000;
+        }
+
+        body.night {
+            background: #000;
+            color: #fff;
+        }
+
+        input {
+            display: none;
+        }
+    </style>
+    <label id="dark-change"> </label>
+    <script>
+        var content = document.getElementsByTagName('body')[0];
+        var darkMode = document.getElementById('dark-change');
+        darkMode.addEventListener('click', function () {
+            darkMode.classList.toggle('active');
+            content.classList.toggle('night');
+        })
+    </script>
+
+    <!--
+*****************************************
+code the header for mobile
+*****************************************
+-->
+
+
+    <header class="for-mobile">
+        <h1>
+            <i class="fa-solid fa-film"></i>
+            EgFlex
+        </h1>
+
+
+
+        <!--
+*****************************************
+code the humborger in header
+*****************************************
+-->
+
+
+
+        <style>
+            .topnav {
+                overflow: hidden;
+                background-color: rgb(0, 0, 0);
+                position: relative;
+                top: 30px;
+                transition: 0.5s;
+
+            }
+
+            .topnav #myLinks {
+                display: none;
+                transition: 0.5s;
+            }
+
+            .topnav a {
+                color: rgb(255, 255, 255);
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                display: block;
+                transition: 0.5s;
+            }
+
+            .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+
+            .active {
+                background-color: #04AA6D;
+                color: white;
+            }
+        </style>
+        <div class="topnav">
+            <div id="myLinks">
+                <a href="#news">Home</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);\\" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+
+
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--
+*****************************************
+code the body 
+*****************************************
+-->
+
+
+
+    <div class="for-pc-body">
+
+
+        <!--
+*****************************************
+code the photo in the body
+*****************************************
+-->
+
+
+
+        <a href="#">
+            <div class="sub-body">
+
+
+                <img src="photo/0695770.jpg-r_1280_720-f_jpg-q_x-xxyxx.jpg" alt="" class="film1">
+            </div>
+        </a>
+
+
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="photo/BarbiePosterEmbed-de7c886812184414977730e920d77a65.jpg" alt="" class="film1">
+            </div>
+        </a>
+
+
+        <a href="#">
+
+            <div class="sub-body">
+
+                <img src="photo/Meg-2-The-Trench-Poster-1.jpg" alt="" class="film1">
+
+            </div>
+        </a>
+
+
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="photo/s-l1600.jpg" alt="" class="film1">
+            </div>
+        </a>
+
+
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="photo/4506133.jpg" alt="" class="film1">
+
+            </div>
+        </a>
+
+
+
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="photo/dilshan-kankanamge-flash-poster-2.jpg" alt="" class="film1">
+            </div>
+        </a>
+
+
+
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="photo/s-l16001.jpg" alt="" class="film1">
+            </div>
+        </a>
+
+
+
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="photo/transform.jpg" alt="" class="film1">
+
+            </div>
+        </a>
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="photo/nofeel.jpg" alt="" class="film1">
+
+            </div>
+        </a>
+
+
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="photo/open-uri20150422-12561-8iil4l_d6ecf7bd.jpeg" alt="" class="film1">
+
+            </div>
+        </a>
+
+
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="photo/blackadam.jpg" alt="" class="film1">
+
+            </div>
+        </a>
+
+
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="photo/platform.jpg" alt="" class="film1">
+
+            </div>
+        </a>
+
+
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="photo/jack.jpg" alt="" class="film1">
+
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="photo/john.jpg" alt="" class="film1">
+
+            </div>
+        </a>
+
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="photo/thetree.jpg" alt="" class="film1">
+
+            </div>
+        </a>
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="" alt="" class="film1">
+
+            </div>
+        </a>
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="" alt="" class="film1">
+
+            </div>
+        </a>
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="" alt="" class="film1">
+
+            </div>
+        </a>
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="" alt="" class="film1">
+
+            </div>
+        </a>
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="" alt="" class="film1">
+
+            </div>
+        </a>
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="" alt="" class="film1">
+
+            </div>
+        </a>
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="" alt="" class="film1">
+
+            </div>
+        </a>
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="" alt="" class="film1">
+
+            </div>
+        </a>
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="" alt="" class="film1">
+
+            </div>
+        </a>
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="" alt="" class="film1">
+
+            </div>
+        </a>
+        <a href="#">
+            <div class="sub-body">
+
+                <img src="" alt="" class="film1">
+
+            </div>
+        </a>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
